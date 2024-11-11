@@ -1,0 +1,320 @@
+#header-container {
+    display: flex;
+    height: 1em;
+    justify-content: space-between;
+    margin-bottom: 0%;
+    
+}
+
+#header-container :first-child {
+    width: 7em;
+    object-fit: cover;
+   
+    
+}
+
+#header-container i {
+    color: grey;
+    cursor: pointer;
+}
+
+#header-container button {
+    height: 1.5em;
+    border-radius: 50px;
+    border-color: grey;
+    background-color: white;
+    cursor: pointer;
+    
+    
+}
+
+#header-container :last-child {
+    border-radius: 70px;
+    background-color: orangered;
+    width: 1em;
+    color: rgb(139, 27, 27);
+    margin-top: 0em;
+    padding-top: 0em;
+    cursor: pointer;
+    
+}
+
+
+#top-container {
+    display: flex;
+    gap: 10px;
+    margin: 3em;
+
+}
+
+#top-container p {
+    font-size: 0.7em;
+}
+
+#super-container {
+    display: flex;
+    margin-top: 0%;
+   
+
+    
+}
+
+#left-container {
+    display: flex;
+    font-family: sans-serif;
+    width: 60%;
+    border-top: 1px solid grey;
+    padding-top: 0.5em;
+    margin-top: 0%;
+    
+
+
+    
+    
+}
+
+.topic {
+    display: flex;
+    width: 80%;
+    margin-left: 3em;
+    margin-top: 0em;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    flex-direction: column;
+    
+    
+    
+}
+
+.topic img {
+    width: 2em;
+    height: 2em;
+    object-fit: contain;
+    
+}
+
+.topic :nth-child(2) {
+    font-size: 0.5em;
+    
+}
+
+.topic h2 {
+    font-size: 1.1em;
+    margin: 0em;
+    
+
+}
+
+.topic :nth-child(2){
+    font-size: 0.8em;
+    color: rgb(93, 90, 90);
+}
+
+.outline {
+    display: flex;
+    gap: 10px;
+    margin-left: 3em;
+    width: auto;
+
+    
+
+}
+
+.outline img {
+    width: 2em;
+    object-fit: contain;
+    
+}
+
+.outline button {
+    border-radius: 15px;
+    height: 2em;
+    margin: 0.5em;
+    border-color: transparent;
+    background-color: whitesmoke;
+    color: rgb(93, 90, 90);
+}
+
+.outline p {
+    font-size: 0.8em;
+    color: rgb(93, 90, 90);
+}
+
+#img-container {
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: fit-content;
+    gap: 20px;
+    
+}
+
+#img-container img {
+    width: 15em;
+    
+    
+}
+
+#right-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    width: 30%;
+    border-left: 1px solid grey;
+}
+
+#twitter-container {
+    
+    text-align: center;
+    font-family: sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: solid 1px grey;
+   
+}
+
+#twitter-container img {
+    width: 3em;
+}
+
+#twitter-container div {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    
+}
+
+#twitter-container a {
+    color: rgb(93, 90, 90) ;
+}
+
+#topic-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    margin-top: 1em;
+    
+    
+    
+}
+
+#topic-container h4 {
+    width: 100%;
+    font-weight: 600;
+    padding-left: 1em;
+}
+
+#topic-container ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 0.8em;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+#topic-container li {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 2em;
+    width: 6em;
+    text-align: center;
+}
+
+#follow-container {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-top: 1em;
+    margin-left: 1em;
+    
+    
+}
+
+
+#follow-container p {
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0%;
+    padding: 0%;
+}
+
+.followImg {
+    display: flex;
+    width: 1em;
+}
+.followImg img {
+    width: 2em;
+}
+
+.followButton {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.followButton button {
+    border-radius: 20px;
+    width: 6em;
+    border-color: grey;
+    background-color: whitesmoke;
+    font-size: 100;
+}
+
+#saved-container {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-left: 1em;
+}
+
+
+.profile {
+    display: flex;
+
+}
+
+.profile p {
+    font-size: smaller;
+}
+
+.profile img {
+    width: 2em;
+    object-fit: contain;
+}
+
+.when {
+    display: flex;
+    width: auto;
+    gap: 10px;
+    color: grey;
+
+}
+
+.when p {
+    font-size: smaller;
+}
+
+#saved-container a {
+    color: green;
+    font-size: smaller;
+}
+
+#menu-container {
+    display: flex;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    margin-top: 6em;
+}
+
+#menu-container ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: smaller;
+    color: grey;
+}
